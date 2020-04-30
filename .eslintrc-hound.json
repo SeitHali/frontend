@@ -8,10 +8,6 @@
     }
   },
   "settings": {
-    "react": {
-      "pragma": "h",
-      "version": "15.0"
-    },
     "import/resolver": {
       "webpack": {
         "config": "webpack.config.js"
@@ -61,20 +57,8 @@
     "import/extensions": [2, "ignorePackages"],
     "object-curly-newline": 0,
     "default-case": 0,
-    "react/jsx-no-bind": [2, { "ignoreRefs": true }],
-    "react/jsx-no-duplicate-props": 2,
-    "react/self-closing-comp": 2,
-    "react/prefer-es6-class": 2,
-    "react/no-string-refs": 2,
-    "react/require-render-return": 2,
-    "react/no-find-dom-node": 2,
-    "react/no-is-mounted": 2,
-    "react/jsx-no-comment-textnodes": 2,
-    "react/jsx-no-undef": 2,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
     "no-restricted-syntax": [0, "ForOfStatement"],
     "prettier/prettier": "error"
   },
-  "plugins": ["react", "prettier"]
+  "plugins": ["prettier"]
 }
